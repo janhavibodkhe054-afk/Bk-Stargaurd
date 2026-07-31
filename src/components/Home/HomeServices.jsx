@@ -2,20 +2,20 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const services = [
-  {
-    title: "Security Guard",
-    image: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=800",
-    desc: "Professional security guards for residential, commercial and industrial premises.",
+ {
+    title: "Corporate Security Services",
+    image: "/s1.jpg",
+    desc: "Professional security solutions for offices, IT parks, banks and corporate premises.",
   },
   {
-    title: "Industrial Security",
-    image: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800",
-    desc: "Reliable protection for factories, warehouses and manufacturing units.",
+    title: "Industrial Security Services",
+    image: "/s4.jpg",
+    desc: "Round-the-clock protection for factories, manufacturing plants and industrial units.",
   },
   {
-    title: "Housekeeping",
-    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800",
-    desc: "Professional housekeeping staff for offices, hospitals and industries.",
+    title: "Logistics Security Services",
+    image: "/s7.jpg",
+    desc: "Secure warehouses, transport hubs and logistics operations with trained guards.",
   },
 ];
 
@@ -29,7 +29,7 @@ const HomeServices = () => {
             Our Services
           </h2>
 
-          <p className="mt-5 text-gray-600 max-w-2xl mx-auto">
+          <p className="mt-5 text-gray-600 max-w-4xl mx-auto">
             We provide professional security and manpower services with trained
             staff, modern security solutions and 24×7 support.
           </p>
