@@ -3,7 +3,7 @@ import { FaPhoneAlt, FaShieldAlt } from "react-icons/fa";
 
 export default function HomeAbout() {
   return (
-    <section className="bg-white py-12 sm:py-16 lg:pb-20 lg:pt-0 overflow-hidden">
+    <section className="bg-white py-12 sm:py-16 lg:pb-0 lg:pt-0 overflow-hidden">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-38">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* LEFT IMAGE */}
@@ -73,45 +73,33 @@ export default function HomeAbout() {
             </span>
 
             <h2 className="mt-4 text-3xl sm:text-4xl lg:text-5xl font-bold text-[#08172F] leading-tight">
-              We Protect Your Business,
-             
-                Property & People
-              
+              We Protect Your Business, Property & People
             </h2>
 
             <p className="mt-6 text-gray-600 leading-7 text-sm sm:text-base lg:text-lg">
-              BK Star Guard Security & Manpower Services provides professional
-              security guards, industrial security, housekeeping and manpower
-              solutions tailored to meet the needs of industries, corporate
-              offices, commercial establishments and residential societies.
+              <span className="font-semibold text-[#08172F]">
+                BK STARGUARD SECURITY & MANPOWER SERVICES
+              </span>{" "}
+              is an organization incorporated in the year{" "}
+              <span className="font-semibold">_____</span>. Over the years, we
+              recognized the growing need for professional corporate security
+              solutions and established a dedicated organization committed to
+              delivering reliable, disciplined, and customer-focused security
+              and facility management services.
             </p>
 
             <p className="mt-4 text-gray-600 leading-7 text-sm sm:text-base lg:text-lg">
-              Our trained personnel deliver reliable, disciplined and
-              customer-focused services, ensuring complete safety with 24×7
-              support and quick response.
+              We specialize in providing{" "}
+              <span className="font-semibold">
+                Security Services, Armed Guards, Bouncers, Security Training,
+                Fire Fighting Training, Housekeeping, Manpower Services
+              </span>
+              , and a wide range of integrated security and facility solutions.
+              Our experienced team is dedicated to safeguarding businesses,
+              industries, commercial establishments, residential societies, and
+              corporate offices with professionalism, integrity, and
+              round-the-clock support.
             </p>
-
-            {/* Call Box */}
-            <div className="mt-8 sm:mt-10 bg-gray-50 rounded-2xl shadow-lg border-l-[6px] border-[#D4A017] p-5 sm:p-7 flex flex-col sm:flex-row items-center gap-5 hover:shadow-2xl transition duration-500">
-              <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-yellow-400 flex items-center justify-center text-black text-2xl sm:text-3xl flex-shrink-0">
-                <FaPhoneAlt />
-              </div>
-
-              <div className="text-center sm:text-left">
-                <p className="text-gray-500 uppercase tracking-wider text-xs sm:text-sm">
-                  Call For More Information
-                </p>
-
-                <h3 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-bold text-[#08172F] whitespace-nowrap">
-                  +91 86683 17591
-                </h3>
-
-                <p className="mt-1 text-gray-500 text-sm sm:text-base">
-                  Available 24×7 for Security Services
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </div>

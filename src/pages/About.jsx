@@ -4,7 +4,11 @@ import AboutStats from '../components/About/AboutStats'
 import HomeAbout from '../components/About/HomeAbout'
 import Team from '../components/About/Team'
 import VisionMission from '../components/About/VisionMission'
-import Portfolio from '../components/About/Portfolio'
+
+import ClientsSection from '../components/About/ClientsSection'
+import ContactCTA from '../components/Gallery/ContactCTA'
+import CompanyOverview from '../components/About/CompanyOverview'
+import CompanyLicenses from '../components/About/CompanyLicenses'
 
 
 const About = () => {
@@ -13,9 +17,14 @@ const About = () => {
       <AboutHero/>
       <AboutStats/>
       <HomeAbout/>
+      
+      <CompanyOverview/>
+      <CompanyLicenses/>
       <Team/>
       <VisionMission/>
-      <Portfolio/>
+      
+      <ClientsSection/>
+      <ContactCTA/>
     </div>
   )
 }

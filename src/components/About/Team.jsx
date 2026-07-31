@@ -5,14 +5,14 @@ const teamMembers = [
   {
     name: "Mr. Balkrishna Koli",
     role: "Managing Director (Ex-Army)",
-    image: "",
+    image: "/f1.png",
     description:
       "Provides strategic leadership and oversees all operations to deliver reliable and professional security services. Leads the management team, supervises operations, ensures high service standards, strengthens client relationships, and drives business growth.",
   },
   {
     name: "Mr. Vikas Shirsat",
     role: "HR & Operation Manager",
-    image: "",
+    image: "/f2.png",
     description:
       "Manages recruitment, employee relations, training, and workforce development to maintain a professional security team. Ensures smooth execution through a structured operational process with clear coordination and accountability.",
   },
@@ -33,21 +33,21 @@ const teamMembers = [
   {
     name: "Mr. Santosh Gaikwad",
     role: "Field Officer",
-    image: "",
+    image: "/f5.png",
     description:
       "Experienced security professional with over 3 years as a Supervisor. Conducts site inspections, manages guard deployment, maintains discipline, and ensures the safety and security of client premises.",
   },
   {
     name: "Mr. Sharad Satpute",
     role: "Field Officer",
-    image: "",
+    image: "/f6.png",
     description:
       "Experienced Supervisor with 4 years of field expertise. Responsible for managing security personnel, monitoring safety procedures, and ensuring the protection of people, property, and client assets.",
   },
   {
     name: "Mr. Shahaji Lokhande",
     role: "Field Officer",
-    image: "",
+    image: "/f7.png",
     description:
       "Experienced Supervisor with over 5 years of expertise. Oversees guard attendance, shift scheduling, uniforms, and performance while ensuring disciplined security operations and complete protection of client premises.",
   },
@@ -55,19 +55,15 @@ const teamMembers = [
 
 const Team = () => {
   return (
-    <section className="py-16 lg:py-24 bg-[#F8FAFC] overflow-hidden">
+    <section className="py-10 lg:py-20 bg-[#F8FAFC] overflow-hidden">
       <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         {/* Heading */}
         <div className="text-center mb-14 lg:mb-16" data-aos="fade-up">
-          <span className="uppercase tracking-[4px] text-yellow-400 font-semibold text-sm sm:text-base">
-            Our Team
-          </span>
-
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#08172F] mt-3">
             Meet Our Experts
           </h2>
 
-          <p className="text-gray-600 max-w-3xl mx-auto mt-5 leading-7 text-sm sm:text-base">
+          <p className="text-gray-600 max-w-7xl mx-auto mt-5 leading-7 text-sm sm:text-base">
             Our experienced professionals are dedicated to delivering reliable,
             disciplined and professional security solutions with commitment,
             integrity and excellence.
@@ -100,9 +96,6 @@ ${
                   alt={member.name}
                   className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
                 />
-
-                {/* Dark Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-[#08172F] via-[#08172F]/60 to-transparent"></div>
 
                 {/* Hover Overlay */}
                 <div

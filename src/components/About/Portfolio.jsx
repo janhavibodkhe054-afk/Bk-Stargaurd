@@ -2,7 +2,7 @@ import React from "react";
 
 const logos = [
   "/c1.jpg",
-  "/c2.webp",
+  "/c2.jpg",
   "/c3.png",
   "/c4.png",
   "/c5.jpg",
@@ -10,7 +10,7 @@ const logos = [
   "/c7.jpg",
   "/c8.jpg",
   "/c9.jpg",
-  "/c10.avif",
+  "/c10.jpg",
 ];
 
 const Portfolio = () => {
@@ -58,14 +58,14 @@ const Portfolio = () => {
                 Operating Portfolio
               </h2>
 
-              <p className="mt-8 text-base leading-8 text-gray-200">
+              <p className="mt-4 text-base leading-8 text-gray-200">
                 We proudly work with India's leading organizations across dairy,
                 infrastructure, manufacturing and energy sectors. Our portfolio
                 reflects trust, quality and long-term business relationships
                 built over the years.
               </p>
 
-              <button className="mt-10 px-8 py-4 rounded-full bg-yellow-400 text-black hover:bg-yellow-500 transition duration-300 hover:scale-105">
+              <button className="mt-5 px-8 py-4 rounded-full bg-yellow-400 text-black hover:bg-yellow-500 transition duration-300 hover:scale-105">
                 View Portfolio
               </button>
             </div>

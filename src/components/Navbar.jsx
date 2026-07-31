@@ -17,25 +17,25 @@ const Navbar = () => {
   const [menu, setMenu] = useState(false);
   const [hideTopBar, setHideTopBar] = useState(false);
 
- useEffect(() => {
-  const handleScroll = () => {
-    if (window.innerWidth < 1024) {
-      setHideTopBar(true);
-      return;
-    }
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.innerWidth < 1024) {
+        setHideTopBar(true);
+        return;
+      }
 
-    setHideTopBar(window.scrollY > 80);
-  };
+      setHideTopBar(window.scrollY > 80);
+    };
 
-  handleScroll(); // Initial call
-  window.addEventListener("scroll", handleScroll);
-  window.addEventListener("resize", handleScroll);
+    handleScroll(); // Initial call
+    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("resize", handleScroll);
 
-  return () => {
-    window.removeEventListener("scroll", handleScroll);
-    window.removeEventListener("resize", handleScroll);
-  };
-}, []);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleScroll);
+    };
+  }, []);
 
   return (
     <>
@@ -115,16 +115,12 @@ const Navbar = () => {
               Services
             </Link>
 
-            <Link to="/industries" className="hover:text-[#D4A017] transition">
-              Industries
+            <Link to="/train" className="hover:text-[#D4A017] transition">
+              Training
             </Link>
 
-            <Link to="/clients" className="hover:text-[#D4A017] transition">
-              Clients
-            </Link>
-
-            <Link to="/career" className="hover:text-[#D4A017] transition">
-              Careers
+            <Link to="/gallery" className="hover:text-[#D4A017] transition">
+              Gallery
             </Link>
 
             <Link to="/contact" className="hover:text-[#D4A017] transition">
@@ -135,9 +131,14 @@ const Navbar = () => {
           {/* Right */}
 
           <div className="hidden lg:flex items-center gap-5">
-            <button className="bg-yellow-400 hover:bg-[#08172F] hover:text-white px-6 py-3 rounded-full font-semibold duration-300">
+            <a
+              href="https://wa.me/918668317591?text=Hello%20BK%20STAR%20GUARD%20SECURITY%20%26%20MANPOWER%20SERVICES,%20I%20would%20like%20to%20get%20a%20free%20quote."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-yellow-400 hover:bg-[#08172F] hover:text-white px-6 py-3 rounded-full font-semibold duration-300 inline-flex items-center justify-center"
+            >
               Get Free Quote
-            </button>
+            </a>
           </div>
 
           {/* Mobile */}
@@ -165,7 +166,7 @@ const Navbar = () => {
 
                 <div className="flex items-center gap-3">
                   <FaPhoneAlt className="text-yellow-400" />
-                  <span>+91 98765 43210</span>
+                  <span>+91 86683 17591</span>
                 </div>
 
                 <div className="flex items-center gap-3">
@@ -209,27 +210,19 @@ const Navbar = () => {
             </Link>
 
             <Link
-              to="/industries"
+              to="/train"
               onClick={() => setMenu(false)}
               className="block px-6 py-4 border-b hover:bg-gray-100"
             >
-              Industries
+              Training
             </Link>
 
             <Link
-              to="/clients"
+              to="/gallery"
               onClick={() => setMenu(false)}
               className="block px-6 py-4 border-b hover:bg-gray-100"
             >
-              Clients
-            </Link>
-
-            <Link
-              to="/career"
-              onClick={() => setMenu(false)}
-              className="block px-6 py-4 border-b hover:bg-gray-100"
-            >
-              Careers
+              Gallery
             </Link>
 
             <Link
@@ -243,9 +236,15 @@ const Navbar = () => {
             {/* Button */}
 
             <div className="p-5">
-              <button className="w-full bg-[#D4A017] hover:bg-[#08172F] hover:text-white py-3 rounded-full font-semibold transition-all duration-300">
+              <a
+                href="https://wa.me/918668317591?text=Hello%20BK%20STAR%20GUARD%20SECURITY%20%26%20MANPOWER%20SERVICES,%20I%20would%20like%20to%20get%20a%20free%20quote."
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMenu(false)}
+                className="w-full bg-[#D4A017] hover:bg-[#08172F] hover:text-white py-3 rounded-full font-semibold transition-all duration-300 flex items-center justify-center"
+              >
                 Get Free Quote
-              </button>
+              </a>
             </div>
           </div>
         )}

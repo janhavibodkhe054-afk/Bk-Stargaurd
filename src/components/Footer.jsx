@@ -103,8 +103,8 @@ const Footer = () => {
                 { name: "Home", path: "/" },
                 { name: "About", path: "/about" },
                 { name: "Services", path: "/services" },
-                { name: "Industries", path: "/industries" },
-                { name: "Career", path: "/career" },
+                { name: "Training", path: "/train" },
+                { name: "Gallery", path: "/gallery" },
                 { name: "Contact", path: "/contact" },
               ].map((item, index) => (
                 <Link
