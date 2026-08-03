@@ -86,7 +86,7 @@ const VisionMission = () => {
         <div className="relative z-10 mt-10 lg:mt-0">
 
           <img
-            src="https://leaderstarsecurity.com/assets/user/assets/img/service-4.jpg"
+            src="https://static.vecteezy.com/system/resources/previews/001/222/762/non_2x/cartoon-office-syndrome-vector.jpg"
             alt=""
             className="w-full h-[350px] sm:h-[450px] lg:h-[600px] object-cover shadow-2xl"
           />

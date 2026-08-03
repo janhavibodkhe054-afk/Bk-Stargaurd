@@ -4,7 +4,7 @@ import { PhoneCall, Mail } from "lucide-react";
 const ContactHero = () => {
   return (
     <section
-      className="relative h-[65vh] md:h-[75vh] flex items-center bg-fixed bg-cover bg-center"
+      className="relative h-[60vh] sm:h-[70vh] md:h-[75vh] lg:h-[75vh] xl:h-[70vh] bg-cover bg-top lg:bg-center overflow-hidden"
       style={{
         backgroundImage: "url('https://www.securityms.in/images/s1.jpg')",
         backgroundPosition: "95% center",
@@ -14,7 +14,7 @@ const ContactHero = () => {
       <div className="absolute inset-0 bg-black/65"></div>
 
       {/* Content */}
-      <div className="relative max-w-7xl mx-auto w-full px-6 lg:px-10 pt-20">
+      <div className="relative max-w-7xl mx-auto w-full px-6 lg:px-10 pt-28 lg:pt-48 text-center lg:text-left">
         <div
           className="max-w-3xl"
           data-aos="fade-up"
@@ -22,7 +22,7 @@ const ContactHero = () => {
         >
           
 
-          <h1 className="mt-4 text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight">
+          <h1 className="mt-4 text-4xl sm:text-5xl md:text-5xl font-bold text-white leading-tight">
             Contact <span className="text-yellow-400">Us</span>
           </h1>
 

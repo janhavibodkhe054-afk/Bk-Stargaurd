@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function TrainingHero() {
   return (
     <section
-      className="relative h-[60vh] sm:h-[70vh] md:h-[75vh] lg:h-[75vh] xl:h-[80vh] bg-cover bg-center overflow-hidden"
+      className="relative h-[60vh] sm:h-[70vh] md:h-[75vh] lg:h-[75vh] xl:h-[70vh] bg-cover bg-top lg:bg-center overflow-hidden"
       style={{
         backgroundImage:
           "url('https://www.securityms.in/images/s1.jpg')",
@@ -17,10 +17,10 @@ export default function TrainingHero() {
       <div className="absolute inset-0 bg-gradient-to-r from-[#08172F]/90 via-[#08172F]/65 to-transparent"></div>
 
       {/* Content */}
-      <div className="relative z-10 h-full flex items-center pt-10 lg:pt-20">
+      <div className="relative z-10 h-full flex items-center pt-10 lg:pt-28">
         <div className="max-w-7xl mx-auto w-full px-5 sm:px-8 lg:px-10">
           <div className="max-w-3xl text-center lg:text-left">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-white leading-tight">
               Security{" "}
               <span className="text-yellow-400">
                 Training

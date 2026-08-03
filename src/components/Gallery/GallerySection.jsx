@@ -15,7 +15,7 @@ export default function GallerySection() {
 
         {/* Heading */}
         <div
-          className="text-left md:text-cneter mb-16"
+          className="text-left md:text-center mb-16"
           data-aos="fade-up"
         >
           <span className="text-yellow-400 uppercase tracking-[4px] font-semibold">

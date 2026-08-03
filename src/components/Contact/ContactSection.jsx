@@ -51,7 +51,7 @@ ${formData.message}`;
             className="bg-[#08172F] rounded-3xl p-8 md:p-12 shadow-2xl"
             data-aos="fade-right"
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-white mt-5 leading-tight">
+            <h2 className="text-4xl md:text-4l font-bold text-white mt-5 leading-tight">
               Let's Discuss Your Security Requirements
             </h2>
 

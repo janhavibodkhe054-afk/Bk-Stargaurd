@@ -10,7 +10,7 @@ import "swiper/css/effect-fade";
 
 const slides = [
   {
-    image: "https://themeearth.com/tf/html/securepress/img/slide2.jpg",
+    image: "hero.png",
     title: "PROTECTING PEOPLE",
     highlight: "& PROPERTY",
     description:
@@ -18,7 +18,7 @@ const slides = [
   },
   {
     image:
-      "https://i.pinimg.com/736x/1f/65/20/1f652075bb49ce5198626bf78317c60d.jpg",
+      "/hero2.png",
     title: "YOUR SAFETY",
     highlight: "OUR PRIORITY",
     description:
@@ -45,13 +45,13 @@ const HeroSection = () => {
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
             <div
-              className="relative h-[75vh] sm:h-[85vh] lg:h-[95vh] xl:h-screen bg-cover bg-center"
+              className="relative h-[75vh] sm:h-[85vh] lg:h-[95vh] xl:h-screen bg-cover bg-top"
               style={{
                 backgroundImage: `url(${slide.image})`,
               }}
             >
               {/* Dark Overlay */}
-              <div className="absolute inset-0 bg-black/55"></div>
+              <div className="absolute inset-0 bg-black/75"></div>
 
               {/* Content */}
               <div className="relative z-10 flex items-center h-full pt-16 lg:pt-30">

@@ -16,7 +16,7 @@ const AboutHome = () => {
             <div className="absolute -bottom-3 sm:-bottom-5 -right-3 sm:-right-5 w-24 sm:w-32 lg:w-40 h-24 sm:h-32 lg:h-40 border-b-4 border-r-4 border-[#D4A017] rounded-br-3xl z-10"></div>
 
             <img
-              src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=900"
+              src="/about1.png"
               alt="Security Team"
               className="relative z-20 w-full h-64 sm:h-80 md:h-[400px] lg:h-[450px] object-cover rounded-2xl shadow-2xl"
             />
