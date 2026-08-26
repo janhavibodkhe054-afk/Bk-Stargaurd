@@ -151,11 +151,16 @@ ${formData.message}`;
 
                 <h3 className="text-xl font-bold text-[#08172F]">Call Us</h3>
 
-                <p className="text-gray-600 mt-3 leading-7">
-                  +91 86683 17591
-                  <br />
-                  +91 88883 20357
-                </p>
+                <div>
+                  
+
+                  <div className="gap-x-6 gap-y-2 mt-3 text-gray-600">
+                    <p>+91 86683 17591</p>
+                    <p>+91 88883 20357</p>
+                    <p>+91 92721 36995 </p>
+                    <p>+91 76209 66270</p>
+                  </div>
+                </div>
               </div>
 
               {/* Email */}
@@ -168,9 +173,9 @@ ${formData.message}`;
                 <h3 className="text-xl font-bold text-[#08172F]">Email Us</h3>
 
                 <p className="text-gray-600 mt-3 leading-7">
-                  info@bkstarguard.com
+                  bkstaguard1@gmail.com
                   <br />
-                  support@bkstarguard.com
+                  bkstarguard@gmail.com
                 </p>
               </div>
 
@@ -186,15 +191,7 @@ ${formData.message}`;
                 </h3>
 
                 <p className="text-gray-600 mt-3 leading-7">
-                  B K STAR GUARD SECURITY &
-                  <br />
-                  MANPOWER SERVICES
-                  <br />
-                  21, Yashodhan Nagar,
-                  <br />
-                  Sangola Road,
-                  <br />
-                  Pandharpur - 413304
+                  Maharashtra, India
                 </p>
               </div>
 

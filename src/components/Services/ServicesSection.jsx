@@ -45,7 +45,8 @@ const services = [
   },
   {
     title: "Ladies Security Guards",
-    image: "https://securon.in/wp-content/uploads/2025/10/Female-Security-Guards-What-Do-They-Do-and-Why-They-Matter-768x512.jpg",
+    image:
+      "/ladies security service.jpg",
     desc: "Experienced female security guards for hospitals, schools, offices and special events.",
   },
   {
@@ -55,7 +56,8 @@ const services = [
   },
   {
     title: "VIP Bodyguard Services",
-    image: "https://content.jdmagicbox.com/v2/comp/kolkata/v8/033pxx33.xx33.230405034252.i2v8/catalogue/kolkata-bouncer-group-bagbazar-kolkata-bodyguard-services-lxspqk8jpv.jpg",
+    image:
+      "/vip bodyguard services.webp",
     desc: "Professional personal protection officers for VIPs, executives and dignitaries.",
   },
   {
@@ -76,10 +78,34 @@ const services = [
   {
     title: "Special Security Squad",
     image: "/s9.jpeg",
-    desc: "Rapid response teams for emergency situations, VIP movements, sensitive locations.",
+    desc: "Rapid response teams for emergency situations, VIP movements and sensitive locations.",
+  },
+  {
+    title: "Manager Manpower Services",
+    image: "/manager services.png",
+    desc: "Experienced managers for supervising teams, handling daily operations and ensuring smooth business activities.",
+  },
+  {
+    title: "Professional Driver Services",
+    image: "/driver.jpg",
+    desc: "Reliable and experienced drivers for corporate, personal, commercial and transportation requirements.",
+  },
+  {
+    title: "Office Peon Services",
+    image: "/peonservices.jpg",
+    desc: "Dependable office support staff for document handling, office assistance, errands and daily administrative tasks.",
+  },
+  {
+    title: "Clerical Staff Services",
+    image: "/clerical staff.png",
+    desc: "Trained clerical staff for documentation, data entry, record keeping and routine administrative support.",
+  },
+  {
+    title: "Back Office Labour Services",
+    image: "/back office labour services.jpg",
+    desc: "Reliable back-office manpower for data processing, documentation, packing, sorting and operational support.",
   },
 ];
-
 export default function ServicesSection() {
   const whatsappNumber = "917588597199"; // Your number
 
@@ -118,14 +144,14 @@ Please share more details.`;
             <div
               key={index}
               data-aos="fade-up"
-              data-aos-delay={index * 100}
+              data-aos-delay={Math.min(index * 50, 300)}
               className="group bg-white rounded-2xl overflow-hidden border border-gray-100 shadow hover:shadow-2xl hover:-translate-y-3 transition-all duration-500"
             >
               {/* Image */}
               <div
                 className="relative overflow-hidden h-60"
                 data-aos="zoom-in"
-                data-aos-delay={index * 100}
+                
               >
                 <img
                   src={service.image}
@@ -150,8 +176,6 @@ Please share more details.`;
 
                 {/* Button */}
                 <button
-                  data-aos="fade-up"
-                  data-aos-delay={index * 100 + 200}
                   onClick={() => openWhatsapp(service.title)}
                   className="w-full bg-[#08172F] hover:bg-green-600 text-white py-3 rounded-xl font-semibold flex justify-center items-center gap-3 transition-all duration-300"
                 >

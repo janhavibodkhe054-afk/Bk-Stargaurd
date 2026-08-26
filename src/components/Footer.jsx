@@ -73,12 +73,13 @@ const Footer = () => {
 
             <div className="space-y-4">
               {[
-                "Security Guard",
-                "Industrial Security",
-                "Lady Security",
-                "Gunman",
-                "Housekeeping",
-                "Labour Supply",
+                "Security Guard Services",
+                "Industrial Security Services",
+                "Lady Security Guard Services",
+                "Executive Protection (Bodyguards)",
+                "VIP Security Services",
+                "Bouncer Services",
+                "Gunman Security Services",
               ].map((item, index) => (
                 <Link
                   key={index}
@@ -129,28 +130,29 @@ const Footer = () => {
               <div className="flex gap-4">
                 <FaMapMarkerAlt className="text-[#D4A017] mt-1 text-xl flex-shrink-0" />
 
-                <p className="text-gray-700 leading-7">
-                  <span className="font-semibold block">
-                    B K STAR GUARD SECURITY AND MANPOWER SERVICES
-                  </span>
-                  21, Yashodhan Nagar, Sangola Road,
-                  <br />
-                  Pandharpur - 413304,
-                  <br />
-                  Maharashtra, India
-                </p>
+                <p className="text-gray-700 leading-7">Maharashtra, India</p>
               </div>
 
-              <div className="flex gap-4">
-                <FaEnvelope className="text-[#D4A017] mt-1 text-xl" />
+              {/* Email */}
+              <div className="flex gap-4 items-start">
+                <FaEnvelope className="text-[#D4A017] mt-1 text-xl shrink-0" />
 
-                <p className="text-gray-700">info@bkstarguard.com</p>
+                <div className="space-y-2">
+                  <p className="text-gray-700">bkstarguard@gmail.com</p>
+                  <p className="text-gray-700">bkstaguard1@gmail.com</p>
+                </div>
               </div>
 
-              <div className="flex gap-4">
-                <FaPhoneAlt className="text-[#D4A017] mt-1 text-xl" />
+              {/* Phone Numbers */}
+              <div className="flex gap-4 items-start">
+                <FaPhoneAlt className="text-[#D4A017] mt-1 text-xl shrink-0" />
 
-                <p className="text-gray-700">+91 86683 17591</p>
+                <div className="space-y-2">
+                  <p className="text-gray-700">+91 86683 17591</p>
+                  <p className="text-gray-700">+91 88883 20357</p>
+                  <p className="text-gray-700">+91 92721 36995 </p>
+                  <p className="text-gray-700">+91 76209 66270</p>
+                </div>
               </div>
             </div>
           </div>

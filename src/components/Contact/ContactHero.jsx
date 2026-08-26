@@ -4,10 +4,10 @@ import { PhoneCall, Mail } from "lucide-react";
 const ContactHero = () => {
   return (
     <section
-      className="relative h-[60vh] sm:h-[70vh] md:h-[75vh] lg:h-[75vh] xl:h-[70vh] bg-cover bg-top lg:bg-center overflow-hidden"
+      className="relative h-[60vh] sm:h-[70vh] md:h-[75vh] lg:h-[75vh] xl:h-[70vh] bg-cover overflow-hidden"
       style={{
-        backgroundImage: "url('https://www.securityms.in/images/s1.jpg')",
-        backgroundPosition: "95% center",
+        backgroundImage: "url('/bk starguard.png')",
+        backgroundPosition: "center 25%",
       }}
     >
       {/* Overlay */}
@@ -15,13 +15,7 @@ const ContactHero = () => {
 
       {/* Content */}
       <div className="relative max-w-7xl mx-auto w-full px-6 lg:px-10 pt-28 lg:pt-48 text-center lg:text-left">
-        <div
-          className="max-w-3xl"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
-          
-
+        <div className="max-w-3xl" data-aos="fade-up" data-aos-duration="1000">
           <h1 className="mt-4 text-4xl sm:text-5xl md:text-5xl font-bold text-white leading-tight">
             Contact <span className="text-yellow-400">Us</span>
           </h1>
@@ -33,7 +27,6 @@ const ContactHero = () => {
           </p>
 
           {/* Buttons */}
-          
 
           {/* Breadcrumb */}
           <div className="mt-12 text-gray-300 text-sm">

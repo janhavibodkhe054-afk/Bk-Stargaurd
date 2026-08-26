@@ -9,13 +9,13 @@ import {
 const stats = [
   {
     icon: <ShieldCheck className="w-7 h-7 sm:w-8 sm:h-8" />,
-    number: 500,
+    number: 200,
     suffix: "+",
     title: "Security Guards",
   },
   {
     icon: <Building2 className="w-7 h-7 sm:w-8 sm:h-8" />,
-    number: 200,
+    number: 100,
     suffix: "+",
     title: "Happy Clients",
   },
@@ -27,7 +27,7 @@ const stats = [
   },
   {
     icon: <Award className="w-7 h-7 sm:w-8 sm:h-8" />,
-    number: 10,
+    number: 15,
     suffix: "+",
     title: "Years Experience",
   },

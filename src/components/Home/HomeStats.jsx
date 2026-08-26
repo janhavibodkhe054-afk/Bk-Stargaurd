@@ -4,13 +4,13 @@ import { ShieldCheck, Users, Building2, Award } from "lucide-react";
 const stats = [
   {
     icon: <ShieldCheck size={42} />,
-    number: 500,
+    number: 200,
     suffix: "+",
     title: "Security Guards",
   },
   {
     icon: <Building2 size={42} />,
-    number: 200,
+    number: 100,
     suffix: "+",
     title: "Happy Clients",
   },
@@ -22,7 +22,7 @@ const stats = [
   },
   {
     icon: <Award size={42} />,
-    number: 10,
+    number: 15,
     suffix: "+",
     title: "Years Experience",
   },

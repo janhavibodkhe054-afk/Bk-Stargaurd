@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 export default function AboutHero() {
   return (
     <section
-      className="relative h-[60vh] sm:h-[70vh] md:h-[75vh] lg:h-[75vh] xl:h-[70vh] bg-cover bg-top lg:bg-center overflow-hidden"
+      className="relative h-[60vh] sm:h-[70vh] md:h-[75vh] lg:h-[75vh] xl:h-[70vh] bg-cover overflow-hidden"
       style={{
-        backgroundImage:
-          "url('https://www.securityms.in/images/s1.jpg')",
+        backgroundImage: "url('/bk starguard.png')",
+        backgroundPosition: "center 25%",
       }}
     >
       {/* Dark Overlay */}
@@ -19,12 +19,9 @@ export default function AboutHero() {
       {/* Content */}
       <div className="relative z-10 h-full flex items-center pt-10 lg:pt-20">
         <div className="max-w-7xl mx-auto w-full px-5 sm:px-8 lg:px-10">
-          <div className="max-w-3xl text-center lg:text-left">
+          <div className="max-w-3xl text-center lg:text-left" data-aos="fade-up" data-aos-duration="1000">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-white leading-tight">
-              About{" "}
-              <span className="text-yellow-400">
-                BK Star Guard
-              </span>
+              About <span className="text-yellow-400">BK Star Guard</span>
             </h1>
 
             <p className="mt-5 text-sm sm:text-base md:text-lg lg:text-xl text-gray-200 leading-7 sm:leading-8 max-w-2xl mx-auto lg:mx-0">
@@ -44,9 +41,7 @@ export default function AboutHero() {
 
               <span className="text-[#D4A017]">/</span>
 
-              <span className="font-semibold text-[#D4A017]">
-                About Us
-              </span>
+              <span className="font-semibold text-[#D4A017]">About Us</span>
             </div>
           </div>
         </div>

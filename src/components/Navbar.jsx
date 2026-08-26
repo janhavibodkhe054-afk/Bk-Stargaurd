@@ -49,10 +49,7 @@ const Navbar = () => {
       >
         <div className="max-w-7xl mx-auto flex justify-between items-center py-3 px-6">
           <div className="flex items-center gap-8 text-sm">
-            <div className="flex items-center gap-2">
-              <FaPhoneAlt className="text-yellow-400" />
-              <span>24×7 Emergency Support</span>
-            </div>
+            
 
             <div className="flex items-center gap-2">
               <FaPhoneAlt className="text-yellow-400" />
@@ -159,10 +156,7 @@ const Navbar = () => {
               </h3>
 
               <div className="space-y-3 text-sm">
-                <div className="flex items-center gap-3">
-                  <FaPhoneAlt className="text-yellow-400" />
-                  <span>24×7 Emergency Support</span>
-                </div>
+                
 
                 <div className="flex items-center gap-3">
                   <FaPhoneAlt className="text-yellow-400" />

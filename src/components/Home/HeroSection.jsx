@@ -17,8 +17,7 @@ const slides = [
       "Professional security guards, industrial security, housekeeping and manpower solutions with 24×7 protection across Maharashtra.",
   },
   {
-    image:
-      "/hero2.png",
+    image: "/hero2.png",
     title: "YOUR SAFETY",
     highlight: "OUR PRIORITY",
     description:
@@ -45,13 +44,14 @@ const HeroSection = () => {
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
             <div
-              className="relative h-[75vh] sm:h-[85vh] lg:h-[95vh] xl:h-screen bg-cover bg-top"
+              className="relative h-[75vh] sm:h-[85vh] lg:h-[95vh] xl:h-screen bg-cover"
               style={{
                 backgroundImage: `url(${slide.image})`,
+                backgroundPosition: "center 30%",
               }}
             >
               {/* Dark Overlay */}
-              <div className="absolute inset-0 bg-black/75"></div>
+              <div className="absolute inset-0 bg-black/70"></div>
 
               {/* Content */}
               <div className="relative z-10 flex items-center h-full pt-16 lg:pt-30">
