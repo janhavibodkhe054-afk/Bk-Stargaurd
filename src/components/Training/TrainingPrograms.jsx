@@ -151,7 +151,7 @@ export default function TrainingPrograms() {
           
 
           <a
-            href="https://wa.me/919876543210?text=Hello%20BK%20STARGUARD%20SECURITY%20%26%20MANPOWER%20SERVICES,%20I%20want%20to%20apply%20for%20the%20Security%20Training%20Program."
+            href="https://wa.me/918668317591?text=Hello%20BK%20STARGUARD%20SECURITY%20%26%20MANPOWER%20SERVICES,%20I%20want%20to%20apply%20for%20the%20Security%20Training%20Program."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-3 mt-8 bg-[#08172F] hover:bg-[#0EA5E9] text-white font-semibold px-6 sm:px-8 py-3.5 sm:py-4 rounded-full transition-all duration-300 hover:-translate-y-1 shadow-lg w-full sm:w-auto"

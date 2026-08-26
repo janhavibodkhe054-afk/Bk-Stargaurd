@@ -83,7 +83,7 @@ const AboutTraining = () => {
                   </p>
 
                   <h3 className="text-xl md:text-2xl font-bold text-[#08172F]">
-                    +91 98765 43210
+                    +91 86683 17591
                   </h3>
                 </div>
               </div>

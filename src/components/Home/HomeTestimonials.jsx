@@ -125,11 +125,11 @@ export default function HomeTestimonials() {
                       ))}
                     </div>
 
-                    <img
+                    {/* <img
                       src={item.image}
                       alt={item.name}
                       className="w-20 h-20 rounded-full object-cover border-4 border-[#D4A017] mx-auto mt-6"
-                    />
+                    /> */}
 
                     <h3 className="text-white text-xl font-bold mt-4">
                       {item.name}
