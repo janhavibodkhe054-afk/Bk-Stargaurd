@@ -13,7 +13,7 @@ export default function HomeAbout() {
             data-aos-duration="1000"
           >
             <img
-              src="/public/society-security-services-pune.jpeg"
+              src="/society-security-services-pune.jpeg"
               alt="About BK Star Guard"
               className="w-full h-[300px] sm:h-[420px] lg:h-[550px] object-cover rounded-2xl shadow-2xl"
             />
