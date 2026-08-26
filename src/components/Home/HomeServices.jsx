@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 const services = [
  {
     title: "Corporate Security Services",
-    image: "/s1.jpg",
+    image: "/public/professional-security-agency-pune.jpeg",
     desc: "Professional security solutions for offices, IT parks, banks and corporate premises.",
   },
   {
     title: "Industrial Security Services",
-    image: "/s4.jpg",
+    image: "/public/24x7-security-services-pune.jpeg",
     desc: "Round-the-clock protection for factories, manufacturing plants and industrial units.",
   },
   {

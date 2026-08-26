@@ -5,17 +5,17 @@ import { FaWhatsapp } from "react-icons/fa";
 const services = [
   {
     title: "Corporate Security Services",
-    image: "/s1.jpg",
+    image: "/24x7-security-services-pune.jpeg",
     desc: "Professional security solutions for offices, IT parks, banks and corporate premises.",
   },
   {
     title: "Industrial Security Services",
-    image: "/s4.jpg",
+    image: "/trained-security-guards-pune.jpeg",
     desc: "Round-the-clock protection for factories, manufacturing plants and industrial units.",
   },
   {
     title: "Logistics Security Services",
-    image: "/s7.jpg",
+    image: "/reliable-security-services-pune.jpeg",
     desc: "Secure warehouses, transport hubs and logistics operations with trained guards.",
   },
   {
@@ -51,7 +51,7 @@ const services = [
   },
   {
     title: "Armed Gunman Services",
-    image: "/s11.jpeg",
+    image: "/professional-manpower-services-pune.jpeg",
     desc: "Licensed armed security personnel for banks, ATMs, cash vans and high-risk locations.",
   },
   {
@@ -62,17 +62,17 @@ const services = [
   },
   {
     title: "Bouncer Security Services",
-    image: "/s2.JPG",
+    image: "/professional-security-agency-pune.jpeg",
     desc: "Trained bouncers for clubs, hotels, weddings, concerts and private functions.",
   },
   {
     title: "Labour Supply Services",
-    image: "/s12.jpg",
+    image: "/housekeeping-manpower-services-pune.jpeg",
     desc: "Skilled and unskilled manpower for industries, warehouses and construction projects.",
   },
   {
     title: "Facility Management Services",
-    image: "/s10.jpeg",
+    image: "/manpower-services-pune.jpeg",
     desc: "Integrated facility support including maintenance, security and housekeeping.",
   },
   {
