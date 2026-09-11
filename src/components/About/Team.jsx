@@ -18,14 +18,14 @@ const teamMembers = [
   },
   {
     name: "Mr. Vikas shirsat",
-    role: "Area Night Patrol Supervisor",
+    role: "HR Manager",
     image: "/vikas.jpeg",
     description:
       "Heads nocturnal quick-response patrolling units across industrial corridors, conducting random spot-checks and maintaining 24/7 central control connectivity.",
   },
   {
     name: "Mr. Sandip Kedar",
-    role: "Operation Coordinator",
+    role: "Senior Clark",
     image: "/sandeep-kedar.jpeg",
     description:
       "Coordinates daily security operations, site readiness, documentation, and staff deployment. Maintains effective communication between clients and the security team to ensure uninterrupted and efficient operations.",
@@ -34,21 +34,21 @@ const teamMembers = [
   // --- ROW 2 ---
   {
     name: "Mr. Sopan Gangthade",
-    role: "Office Admin",
+    role: "Junior Clark",
     image: "/sopan.jpeg",
     description:
       "Supervises the Central Monitoring Unit and controls communication between security guards, supervisors, and management. Maintains operational records, incident reports, and daily security documentation.",
   },
   {
     name: "Mr. Santosh Gaikwad",
-    role: "Field Officer",
+    role: "Supervisor",
     image: "/santosh.jpeg",
     description:
       "Experienced security professional with over 3 years as a Supervisor. Conducts site inspections, manages guard deployment, maintains discipline, and ensures the safety and security of client premises.",
   },
   {
     name: "Mr. Sharad Satpute",
-    role: "Field Officer",
+    role: "Senior Supervisor",
     image: "/sharad.jpeg",
     description:
       "Experienced Supervisor with 4 years of field expertise. Responsible for managing security personnel, monitoring safety procedures, and ensuring the protection of people, property, and client assets.",
@@ -57,33 +57,30 @@ const teamMembers = [
   // --- ROW 3 ---
   {
     name: "Mr. Shahaji Lokhande",
-    role: "Field Officer",
+    role: "Supervisor",
     image: "/shahaji.jpeg",
     description:
       "Experienced Supervisor with over 5 years of expertise. Oversees guard attendance, shift scheduling, uniforms, and performance while ensuring disciplined security operations and complete protection of client premises.",
   },
   {
     name: "Mr. Anand More",
-    role: "supervisor",
+    role: "Supervisor",
     image: "/anand.jpeg",
     description:
       "Conducts rigorous physical drill sessions, perimeter protocol coaching, emergency fire-safety simulations, and gate turnstile discipline for deployed security guards.",
   },
-  // {
-  //   name: "Mr. Vikas shirsat",
-  //   role: "Area Night Patrol Supervisor",
-  //   image: "/vikas.jpeg",
-  //   description:
-  //     "Heads nocturnal quick-response patrolling units across industrial corridors, conducting random spot-checks and maintaining 24/7 central control connectivity.",
-  // },
 ];
 
 const Team = () => {
   return (
     <section className="py-10 lg:py-20 bg-[#F8FAFC] overflow-hidden">
       <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
+
         {/* Heading */}
-        <div className="text-center mb-14 lg:mb-16" data-aos="fade-up">
+        <div
+          className="text-center mb-12 lg:mb-16"
+          data-aos="fade-up"
+        >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#08172F] mt-3">
             Meet Our Experts
           </h2>
@@ -95,49 +92,122 @@ const Team = () => {
           </p>
         </div>
 
-        {/* Team Grid: 3 in a row on desktop */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        {/* Team Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
+
           {teamMembers.map((member, index) => (
             <div
               key={index}
               data-aos="zoom-in-up"
               data-aos-delay={(index % 3) * 100}
-              className="group relative rounded-2xl overflow-hidden bg-white shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-3"
+              className="
+                group
+                relative
+                rounded-2xl
+                overflow-hidden
+                bg-white
+                shadow-lg
+                hover:shadow-2xl
+                transition-all
+                duration-500
+                hover:-translate-y-3
+              "
             >
-              {/* Image */}
-              <div className="relative overflow-hidden h-[320px] sm:h-[350px] lg:h-[400px]">
+
+              {/* Image Section */}
+              <div className="relative overflow-hidden bg-gray-100">
+
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
+                  className="
+                    block
+                    w-full
+                    h-auto
+                    object-contain
+                    transition-transform
+                    duration-700
+                    group-hover:scale-105
+                  "
                 />
 
                 {/* Hover Overlay */}
                 <div
-                  className="absolute inset-0 bg-[#08172F]/95
-                  opacity-0 group-hover:opacity-100
-                  translate-y-full group-hover:translate-y-0
-                  transition-all duration-700
-                  flex flex-col justify-center items-center
-                  px-6 text-center"
+                  className="
+                    absolute
+                    inset-0
+                    bg-[#08172F]/95
+                    opacity-0
+                    translate-y-full
+                    group-hover:opacity-100
+                    group-hover:translate-y-0
+                    transition-all
+                    duration-700
+                    flex
+                    flex-col
+                    justify-center
+                    items-center
+                    px-5
+                    sm:px-6
+                    text-center
+                  "
                 >
+
                   <h3 className="text-xl lg:text-2xl font-bold text-white">
                     {member.name}
                   </h3>
 
-                  <span className="mt-3 bg-yellow-400 text-[#08172F] px-4 py-1.5 rounded-full text-xs sm:text-sm font-semibold">
+                  <span
+                    className="
+                      mt-3
+                      bg-yellow-400
+                      text-[#08172F]
+                      px-4
+                      py-1.5
+                      rounded-full
+                      text-xs
+                      sm:text-sm
+                      font-semibold
+                    "
+                  >
                     {member.role}
                   </span>
 
-                  <p className="text-gray-200 mt-5 text-xs sm:text-sm leading-6 max-h-56 overflow-y-auto pr-1">
+                  <p
+                    className="
+                      text-gray-200
+                      mt-5
+                      text-xs
+                      sm:text-sm
+                      leading-6
+                      max-h-56
+                      overflow-y-auto
+                      pr-1
+                    "
+                  >
                     {member.description}
                   </p>
+
                 </div>
               </div>
 
               {/* Bottom Content */}
               <div className="relative bg-white px-5 py-6 text-center">
-                <div className="absolute top-0 left-0 h-1 bg-yellow-400 w-0 group-hover:w-full transition-all duration-500"></div>
+
+                {/* Top Yellow Line */}
+                <div
+                  className="
+                    absolute
+                    top-0
+                    left-0
+                    h-1
+                    bg-yellow-400
+                    w-0
+                    group-hover:w-full
+                    transition-all
+                    duration-500
+                  "
+                ></div>
 
                 <h3 className="text-lg sm:text-xl font-bold text-[#08172F]">
                   {member.name}
@@ -146,9 +216,12 @@ const Team = () => {
                 <p className="text-[#D4A017] text-sm sm:text-base mt-2 font-semibold">
                   {member.role}
                 </p>
+
               </div>
+
             </div>
           ))}
+
         </div>
       </div>
     </section>
