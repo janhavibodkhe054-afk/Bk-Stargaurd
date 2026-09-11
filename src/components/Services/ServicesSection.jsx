@@ -107,7 +107,7 @@ const services = [
   },
 ];
 export default function ServicesSection() {
-  const whatsappNumber = "918888320357"; // Your number
+  const whatsappNumber = "919272136995"; // Your number
 
   const openWhatsapp = (service) => {
     const message = `Hello BK Star Guard,

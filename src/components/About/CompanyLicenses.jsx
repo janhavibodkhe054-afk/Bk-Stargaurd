@@ -10,6 +10,7 @@ import {
   Landmark,
   Award,
   PenTool,
+  ShieldAlert,
 } from "lucide-react";
 
 const licenses = [
@@ -73,6 +74,12 @@ const licenses = [
     value: "10118426",
     desc: "Physical Training & Fire Protection Training Provider",
   },
+  {
+    icon: <ShieldAlert size={30} />,
+    title: "Security Guard Board Registration",
+    value: "SGB/MH/REG-APPROVED",
+    desc: "Maharashtra State Security Guard Board Registered Agency",
+  },
 ];
 
 export default function CompanyLicenses() {
@@ -80,7 +87,6 @@ export default function CompanyLicenses() {
     <section className="py-10 md:py-10 bg-gradient-to-b from-[#f8fbff] via-white to-[#f5f8fc] overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Heading */}
-
         <div className="text-center mb-10 md:mb-16">
           <h2 className="mt-5 text-3xl sm:text-4xl lg:text-5xl font-bold text-black">
             Company Licenses & Certifications
@@ -94,7 +100,6 @@ export default function CompanyLicenses() {
         </div>
 
         {/* Cards */}
-
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-7">
           {licenses.map((item, index) => (
             <div
@@ -102,18 +107,15 @@ export default function CompanyLicenses() {
               className="relative overflow-hidden group bg-white rounded-3xl border border-gray-200 shadow-md hover:shadow-2xl hover:border-yellow-400 transition-all duration-500 hover:-translate-y-2"
             >
               {/* Left Border Animation */}
-
               <div className="absolute left-0 top-0 h-full w-0 group-hover:w-2 bg-yellow-400 transition-all duration-500"></div>
 
               <div className="flex flex-col sm:flex-row items-center sm:items-start p-4 md:p-4">
                 {/* Icon */}
-
                 <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-[#0B3C6D] to-[#174C83] text-yellow-400 flex items-center justify-center shadow-lg group-hover:scale-110 transition duration-300 flex-shrink-0">
                   {item.icon}
                 </div>
 
                 {/* Content */}
-
                 <div className="sm:ml-6 mt-5 sm:mt-0 text-center sm:text-left flex-1">
                   <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#0B3C6D]">
                     {item.title}

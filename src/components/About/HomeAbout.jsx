@@ -1,21 +1,21 @@
 import React from "react";
-import { FaPhoneAlt, FaShieldAlt } from "react-icons/fa";
+import { FaShieldAlt, FaMedal, FaAward, FaBuilding } from "react-icons/fa";
 
 export default function HomeAbout() {
   return (
-    <section className="bg-white py-12 sm:py-16 lg:pb-0 lg:pt-0 overflow-hidden">
-      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-38">
+    <section className="bg-white pt-12 sm:pt-16 lg:pt-24 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          {/* LEFT IMAGE */}
+          {/* LEFT IMAGE & FLOATING BADGE */}
           <div
             className="relative"
             data-aos="fade-right"
             data-aos-duration="1000"
           >
             <img
-              src="/society-security-services-pune.jpeg"
-              alt="About BK Star Guard"
-              className="w-full h-[300px] sm:h-[420px] lg:h-[550px] object-cover rounded-2xl shadow-2xl"
+              src="/private-security-services-pune.jpeg"
+              alt="BK Star Guard Founder and Security Team"
+              className="w-full h-[360px] sm:h-[480px] lg:h-[580px] object-cover rounded-3xl shadow-2xl"
             />
 
             {/* Floating Card */}
@@ -23,42 +23,46 @@ export default function HomeAbout() {
               className="
                 relative
                 lg:absolute
-                lg:-bottom-10
-                lg:right-8
+                lg:-bottom-8
+                lg:-right-6
                 mt-6
                 lg:mt-0
                 bg-[#08172F]
                 text-white
-                rounded-2xl
+                rounded-3xl
                 shadow-2xl
                 p-6
-                sm:p-8
+                sm:p-7
                 max-w-md
                 border-l-4
                 border-[#D4A017]
               "
             >
               <div className="flex items-center gap-4">
-                <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-yellow-400 flex items-center justify-center text-[#08172F] text-2xl">
+                <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-[#D4A017] flex items-center justify-center text-[#08172F] text-2xl sm:text-3xl shadow-lg flex-shrink-0">
                   <FaShieldAlt />
                 </div>
 
                 <div>
-                  <h3 className="text-2xl sm:text-3xl font-bold text-yellow-400">
-                    15+
+                  <h3 className="text-3xl sm:text-4xl font-black text-[#D4A017] tracking-tight">
+                    45+
                   </h3>
-
-                  <p className="text-gray-300 text-sm sm:text-base">
-                    Years Experience
+                  <p className="text-white font-bold text-sm sm:text-base leading-tight">
+                    Years of Tactical & Security Leadership
                   </p>
                 </div>
               </div>
 
-              <p className="mt-5 text-sm sm:text-base leading-7 text-gray-300">
-                Delivering trusted security guards, housekeeping and manpower
-                services with professionalism, discipline and complete
-                reliability.
-              </p>
+              <div className="mt-4 pt-4 border-t border-white/10 space-y-2 text-xs sm:text-sm text-gray-300">
+                <div className="flex items-center gap-2">
+                  <FaMedal className="text-[#D4A017] flex-shrink-0" />
+                  <span><strong>35 Years</strong> Distinguished Indian Army Service</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaBuilding className="text-[#D4A017] flex-shrink-0" />
+                  <span><strong>Since 2010:</strong> Corporate Security Enterprise</span>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -66,40 +70,44 @@ export default function HomeAbout() {
           <div
             data-aos="fade-left"
             data-aos-duration="1000"
-            className="text-left lg:text-left"
+            className="text-left"
           >
-            <span className="uppercase tracking-[3px] sm:tracking-[5px] text-yellow-400 font-semibold text-sm">
-              Security & Manpower Services
+            <span className="uppercase tracking-[4px] text-[#D4A017] font-bold text-xs sm:text-sm">
+              Leadership Driven By Military Discipline
             </span>
 
-            <h2 className="mt-4 text-3xl sm:text-4xl lg:text-5xl font-bold text-[#08172F] leading-tight">
-              We Protect Your Business, Property & People
+            <h2 className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-bold text-[#08172F] leading-tight">
+              Defending Assets, People & Enterprises Across Maharashtra
             </h2>
 
-            <p className="mt-6 text-gray-600 leading-7 text-sm sm:text-base lg:text-lg">
-              <span className="font-semibold text-[#08172F]">
-                BK STARGUARD SECURITY & MANPOWER SERVICES
-              </span>{" "}
-              is an organization incorporated in the year{" "}
-              <span className="font-semibold">_____</span>. Over the years, we
-              recognized the growing need for professional corporate security
-              solutions and established a dedicated organization committed to
-              delivering reliable, disciplined, and customer-focused security
-              and facility management services.
-            </p>
+            {/* Founder Highlight Box */}
+            <div className="mt-6 p-4 sm:p-5 rounded-2xl bg-slate-50 border-l-4 border-[#08172F] shadow-sm">
+              <div className="flex items-start gap-3">
+                <FaAward className="text-[#D4A017] text-xl mt-1 flex-shrink-0" />
+                <div>
+                  <h4 className="text-base sm:text-lg font-bold text-[#08172F]">
+                    Founded & Directed by Mr. Balkrishna Koli
+                  </h4>
+                  <p className="text-xs sm:text-sm text-gray-600 font-medium">
+                    Managing Director (Ex-Army Veteran)
+                  </p>
+                </div>
+              </div>
+              <p className="mt-2 text-xs sm:text-sm text-gray-700 leading-relaxed">
+                Backed by <strong>35 distinguished years in the Indian Army</strong> and a collective <strong>45+ years of operational command</strong>, the organization operates under combat-tested battle readiness, zero-compromise vigilance, and strict chain-of-command discipline.
+              </p>
+            </div>
 
-            <p className="mt-4 text-gray-600 leading-7 text-sm sm:text-base lg:text-lg">
-              We specialize in providing{" "}
-              <span className="font-semibold">
-                Security Services, Armed Guards, Bouncers, Security Training,
-                Fire Fighting Training, Housekeeping, Manpower Services
-              </span>
-              , and a wide range of integrated security and facility solutions.
-              Our experienced team is dedicated to safeguarding businesses,
-              industries, commercial establishments, residential societies, and
-              corporate offices with professionalism, integrity, and
-              round-the-clock support.
-            </p>
+            {/* Shortened Narrative Paragraphs */}
+            <div className="mt-6 space-y-4 text-gray-700 leading-relaxed text-sm sm:text-base">
+              <p>
+                Established in <strong>2010</strong>, <strong>BK STAR GUARD SECURITY & MANPOWER SERVICES</strong> was built to bring defense-grade standards to commercial and corporate security, replacing conventional vigilance with structured military drills and proactive risk mitigation.
+              </p>
+
+              <p>
+                Today, we safeguard key industries, IT parks, logistics hubs, and residential communities across Maharashtra with disciplined, verified, and quick-response security personnel.
+              </p>
+            </div>
           </div>
         </div>
       </div>

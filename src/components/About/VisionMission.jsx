@@ -14,7 +14,7 @@ const VisionMission = () => {
     },
     
     {
-      no: "03",
+      no: "02",
       title: "Our Vision",
       desc: "Become one of India's most trusted security companies known for professionalism, reliability and operational excellence.",
       icon: <Eye size={20} />,
@@ -86,7 +86,7 @@ const VisionMission = () => {
         <div className="relative z-10 mt-10 lg:mt-0">
 
           <img
-            src="https://static.vecteezy.com/system/resources/previews/001/222/762/non_2x/cartoon-office-syndrome-vector.jpg"
+            src="/best-security-services-pune-bk-star-guard.jpeg"
             alt=""
             className="w-full h-[350px] sm:h-[450px] lg:h-[600px] object-cover shadow-2xl"
           />

@@ -11,7 +11,7 @@ export default function AboutSecurity() {
             {/* Main Image */}
             <div className="rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/service2.jpg"
+                src="/aboutlastsection.png"
                 alt="Security Services"
                 className="w-full h-[320px] sm:h-[420px] md:h-[520px] lg:h-[600px] object-cover rounded-2xl"
               />

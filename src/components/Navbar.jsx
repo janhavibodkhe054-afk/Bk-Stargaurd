@@ -17,6 +17,14 @@ const Navbar = () => {
 
   const location = useLocation();
 
+  // WhatsApp Link Setup (स्पेस काढून encode केलेली लिंक)
+  const phoneNumber = "919272136995";
+  const defaultMessage =
+    "Hello BK STAR GUARD SECURITY & MANPOWER SERVICES, I would like to get a free quote.";
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+    defaultMessage
+  )}`;
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.innerWidth < 1024) {
@@ -79,22 +87,26 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto flex justify-between items-center py-3 px-6">
           {/* Contact */}
           <div className="flex items-center gap-8 text-sm">
-            <div className="flex items-center gap-2">
+            <a
+              href="tel:+919272136995"
+              className="flex items-center gap-2 hover:text-[#D4A017] transition-colors"
+            >
               <FaPhoneAlt className="text-[#D4A017]" />
-              <span>+91 86683 17591</span>
-            </div>
+              <span>+91 92721 36995</span>
+            </a>
 
-            <div className="flex items-center gap-2">
+            <a
+              href="mailto:info@bkstarguard.com"
+              className="flex items-center gap-2 hover:text-[#D4A017] transition-colors"
+            >
               <FaEnvelope className="text-[#D4A017]" />
               <span>info@bkstarguard.com</span>
-            </div>
+            </a>
           </div>
 
           {/* Social */}
           <div className="flex items-center gap-4">
-            <span className="font-semibold text-[#D4A017]">
-              Follow Us
-            </span>
+            <span className="font-semibold text-[#D4A017]">Follow Us</span>
 
             <a
               href="#"
@@ -118,7 +130,7 @@ const Navbar = () => {
             </a>
 
             <a
-              href="https://wa.me/918668317591"
+              href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[#D4A017] transition-colors duration-300"
@@ -259,7 +271,7 @@ const Navbar = () => {
           {/* ================= DESKTOP QUOTE ================= */}
           <div className="hidden lg:flex items-center">
             <a
-              href="https://wa.me/918668317591?text=Hello%20BK%20STAR%20GUARD%20SECURITY%20%26%20MANPOWER%20SERVICES,%20I%20would%20like%20to%20get%20a%20free%20quote."
+              href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="
@@ -281,6 +293,7 @@ const Navbar = () => {
                 justify-center
                 hover:shadow-lg
                 hover:shadow-[#08172F]/20
+                cursor-pointer
               "
             >
               Get Free Quote
@@ -372,7 +385,7 @@ const Navbar = () => {
 
               <div className="space-y-3 text-sm">
                 <a
-                  href="tel:+918668317591"
+                  href="tel:+919272136995"
                   className="
                     flex
                     items-center
@@ -385,7 +398,7 @@ const Navbar = () => {
                     <FaPhoneAlt className="text-[#D4A017] text-xs" />
                   </span>
 
-                  <span>+91 86683 17591</span>
+                  <span>+91 92721 36995</span>
                 </a>
 
                 <a
@@ -466,7 +479,7 @@ const Navbar = () => {
                 </a>
 
                 <a
-                  href="https://wa.me/918668317591"
+                  href={whatsappUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="
@@ -525,7 +538,6 @@ const Navbar = () => {
                   }}
                 >
                   <div className="flex items-center gap-3">
-                    {/* Active Indicator */}
                     <span
                       className={`
                         w-1
@@ -565,7 +577,7 @@ const Navbar = () => {
             {/* Mobile Quote */}
             <div className="p-5 sm:p-6 bg-gray-50">
               <a
-                href="https://wa.me/918668317591?text=Hello%20BK%20STAR%20GUARD%20SECURITY%20%26%20MANPOWER%20SERVICES,%20I%20would%20like%20to%20get%20a%20free%20quote."
+                href={whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setMenu(false)}

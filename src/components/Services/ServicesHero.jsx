@@ -6,8 +6,8 @@ export default function ServicesHero() {
     <section
       className="relative h-[60vh] sm:h-[70vh] md:h-[75vh] lg:h-[75vh] xl:h-[70vh] bg-cover overflow-hidden"
       style={{
-        backgroundImage: "url('/bk starguard.png')",
-        backgroundPosition: "center 25%",
+        backgroundImage: "url('/serviceshero.png')",
+        backgroundPosition: "top",
       }}
     >
       {/* Dark Overlay */}

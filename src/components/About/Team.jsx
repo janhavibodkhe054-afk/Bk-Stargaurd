@@ -1,56 +1,81 @@
 import React from "react";
-import { FaFacebookF, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
 const teamMembers = [
+  // --- ROW 1 ---
   {
     name: "Mr. Balkrishna Koli",
     role: "Managing Director (Ex-Army)",
-    image: "/f1.png",
+    image: "/balkrishna-koli.jpeg",
     description:
       "Provides strategic leadership and oversees all operations to deliver reliable and professional security services. Leads the management team, supervises operations, ensures high service standards, strengthens client relationships, and drives business growth.",
   },
   {
-    name: "Mr. Vikas Shirsat",
-    role: "HR & Operation Manager",
-    image: "/f2.png",
+    name: "Mr. Mahesh Shirsat",
+    role: "Supervisor",
+    image: "/mahesh.jpeg",
     description:
       "Manages recruitment, employee relations, training, and workforce development to maintain a professional security team. Ensures smooth execution through a structured operational process with clear coordination and accountability.",
   },
   {
+    name: "Mr. Vikas shirsat",
+    role: "Area Night Patrol Supervisor",
+    image: "/vikas.jpeg",
+    description:
+      "Heads nocturnal quick-response patrolling units across industrial corridors, conducting random spot-checks and maintaining 24/7 central control connectivity.",
+  },
+  {
     name: "Mr. Sandip Kedar",
     role: "Operation Coordinator",
-    image: "",
+    image: "/sandeep-kedar.jpeg",
     description:
       "Coordinates daily security operations, site readiness, documentation, and staff deployment. Maintains effective communication between clients and the security team to ensure uninterrupted and efficient operations.",
   },
+
+  // --- ROW 2 ---
   {
     name: "Mr. Sopan Gangthade",
     role: "Office Admin",
-    image: "",
+    image: "/sopan.jpeg",
     description:
       "Supervises the Central Monitoring Unit and controls communication between security guards, supervisors, and management. Maintains operational records, incident reports, and daily security documentation.",
   },
   {
     name: "Mr. Santosh Gaikwad",
     role: "Field Officer",
-    image: "/f5.png",
+    image: "/santosh.jpeg",
     description:
       "Experienced security professional with over 3 years as a Supervisor. Conducts site inspections, manages guard deployment, maintains discipline, and ensures the safety and security of client premises.",
   },
   {
     name: "Mr. Sharad Satpute",
     role: "Field Officer",
-    image: "/f6.png",
+    image: "/sharad.jpeg",
     description:
       "Experienced Supervisor with 4 years of field expertise. Responsible for managing security personnel, monitoring safety procedures, and ensuring the protection of people, property, and client assets.",
   },
+
+  // --- ROW 3 ---
   {
     name: "Mr. Shahaji Lokhande",
     role: "Field Officer",
-    image: "/f7.png",
+    image: "/shahaji.jpeg",
     description:
       "Experienced Supervisor with over 5 years of expertise. Oversees guard attendance, shift scheduling, uniforms, and performance while ensuring disciplined security operations and complete protection of client premises.",
   },
+  {
+    name: "Mr. Anand More",
+    role: "supervisor",
+    image: "/anand.jpeg",
+    description:
+      "Conducts rigorous physical drill sessions, perimeter protocol coaching, emergency fire-safety simulations, and gate turnstile discipline for deployed security guards.",
+  },
+  // {
+  //   name: "Mr. Vikas shirsat",
+  //   role: "Area Night Patrol Supervisor",
+  //   image: "/vikas.jpeg",
+  //   description:
+  //     "Heads nocturnal quick-response patrolling units across industrial corridors, conducting random spot-checks and maintaining 24/7 central control connectivity.",
+  // },
 ];
 
 const Team = () => {
@@ -63,34 +88,24 @@ const Team = () => {
             Meet Our Experts
           </h2>
 
-          <p className="text-gray-600 max-w-7xl mx-auto mt-5 leading-7 text-sm sm:text-base">
+          <p className="text-gray-600 max-w-4xl mx-auto mt-5 leading-7 text-sm sm:text-base">
             Our experienced professionals are dedicated to delivering reliable,
             disciplined and professional security solutions with commitment,
             integrity and excellence.
           </p>
         </div>
 
-        {/* Team Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-6 lg:gap-8">
+        {/* Team Grid: 3 in a row on desktop */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {teamMembers.map((member, index) => (
             <div
               key={index}
               data-aos="zoom-in-up"
-              data-aos-delay={index * 100}
-              className={`group relative rounded-2xl overflow-hidden bg-white shadow-lg
-hover:shadow-2xl transition-all duration-500 hover:-translate-y-3
-${
-  index === 4
-    ? "lg:col-start-2 lg:col-span-3"
-    : index === 5
-      ? "lg:col-start-5 lg:col-span-3"
-      : index === 6
-        ? "lg:col-start-8 lg:col-span-3"
-        : "lg:col-span-3"
-}`}
+              data-aos-delay={(index % 3) * 100}
+              className="group relative rounded-2xl overflow-hidden bg-white shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-3"
             >
               {/* Image */}
-              <div className="relative overflow-hidden h-[300px] sm:h-[340px] lg:h-[380px]">
+              <div className="relative overflow-hidden h-[320px] sm:h-[350px] lg:h-[400px]">
                 <img
                   src={member.image}
                   alt={member.name}
@@ -100,21 +115,21 @@ ${
                 {/* Hover Overlay */}
                 <div
                   className="absolute inset-0 bg-[#08172F]/95
-opacity-0 group-hover:opacity-100
-translate-y-full group-hover:translate-y-0
-transition-all duration-700
-flex flex-col justify-center items-center
-px-5 sm:px-6 text-center"
+                  opacity-0 group-hover:opacity-100
+                  translate-y-full group-hover:translate-y-0
+                  transition-all duration-700
+                  flex flex-col justify-center items-center
+                  px-6 text-center"
                 >
                   <h3 className="text-xl lg:text-2xl font-bold text-white">
                     {member.name}
                   </h3>
 
-                  <span className="mt-3 bg-yellow-400 text-[#08172F] px-4 py-2 rounded-full text-xs sm:text-sm font-semibold">
+                  <span className="mt-3 bg-yellow-400 text-[#08172F] px-4 py-1.5 rounded-full text-xs sm:text-sm font-semibold">
                     {member.role}
                   </span>
 
-                  <p className="text-gray-200 mt-5 text-xs sm:text-sm leading-6 max-h-54 overflow-y-auto pr-1">
+                  <p className="text-gray-200 mt-5 text-xs sm:text-sm leading-6 max-h-56 overflow-y-auto pr-1">
                     {member.description}
                   </p>
                 </div>
@@ -128,7 +143,7 @@ px-5 sm:px-6 text-center"
                   {member.name}
                 </h3>
 
-                <p className="text-yellow-400 text-sm sm:text-base mt-2 font-semibold">
+                <p className="text-[#D4A017] text-sm sm:text-base mt-2 font-semibold">
                   {member.role}
                 </p>
               </div>

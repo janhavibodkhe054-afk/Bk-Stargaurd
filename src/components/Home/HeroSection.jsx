@@ -16,11 +16,18 @@ const slides = [
       "Professional security guards, industrial security, housekeeping and manpower solutions with 24×7 protection across Maharashtra.",
   },
   {
-    image: "/hero2.png",
+    image: "/bk-star-guard-security-services-pune.jpeg",
     title: "YOUR SAFETY",
     highlight: "OUR PRIORITY",
     description:
       "BK Star Guard Security delivers dependable protection with experienced guards, modern operations and quick response services.",
+  },
+  {
+    image: "/corporate-security-services-pune.jpeg",
+    title: "ADVANCED SURVEILLANCE",
+    highlight: "& MANPOWER",
+    description:
+      "Comprehensive facility management, corporate security, and certified manpower customized to safeguard your business operations.",
   },
 ];
 

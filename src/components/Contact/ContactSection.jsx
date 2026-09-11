@@ -20,7 +20,7 @@ export default function ContactSection() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const whatsappNumber = "918888320357"; // तुमचा WhatsApp नंबर
+    const whatsappNumber = "919272136995"; // तुमचा WhatsApp नंबर
 
     const text = `*New Security Enquiry*
 
@@ -155,8 +155,6 @@ ${formData.message}`;
                   
 
                   <div className="gap-x-6 gap-y-2 mt-3 text-gray-600">
-                    <p>+91 86683 17591</p>
-                    <p>+91 88883 20357</p>
                     <p>+91 92721 36995 </p>
                     <p>+91 76209 66270</p>
                   </div>

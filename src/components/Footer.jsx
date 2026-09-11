@@ -148,8 +148,6 @@ const Footer = () => {
                 <FaPhoneAlt className="text-[#D4A017] mt-1 text-xl shrink-0" />
 
                 <div className="space-y-2">
-                  <p className="text-gray-700">+91 86683 17591</p>
-                  <p className="text-gray-700">+91 88883 20357</p>
                   <p className="text-gray-700">+91 92721 36995 </p>
                   <p className="text-gray-700">+91 76209 66270</p>
                 </div>

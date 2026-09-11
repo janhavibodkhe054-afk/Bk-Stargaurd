@@ -6,7 +6,7 @@ export default function TrainingHero() {
     <section
       className="relative h-[60vh] sm:h-[70vh] md:h-[75vh] lg:h-[75vh] xl:h-[70vh] bg-cover overflow-hidden"
       style={{
-        backgroundImage: "url('/bk starguard.png')",
+        backgroundImage: "url('/traininghero.png')",
         backgroundPosition: "center 25%",
       }}
     >

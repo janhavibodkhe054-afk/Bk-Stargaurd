@@ -4,17 +4,17 @@ import { Link } from "react-router-dom";
 const services = [
  {
     title: "Corporate Security Services",
-    image: "/public/professional-security-agency-pune.jpeg",
+    image: "/public/24x7-security-services-pune.jpeg",
     desc: "Professional security solutions for offices, IT parks, banks and corporate premises.",
   },
   {
     title: "Industrial Security Services",
-    image: "/public/24x7-security-services-pune.jpeg",
+    image: "/trained-security-guards-pune.jpeg",
     desc: "Round-the-clock protection for factories, manufacturing plants and industrial units.",
   },
   {
     title: "Logistics Security Services",
-    image: "/s7.jpg",
+    image: "/reliable-security-services-pune.jpeg",
     desc: "Secure warehouses, transport hubs and logistics operations with trained guards.",
   },
 ];

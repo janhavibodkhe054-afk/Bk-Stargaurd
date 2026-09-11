@@ -6,6 +6,7 @@ import HomeStats from '../components/Home/HomeStats'
 import WhyChoose from '../components/Home/WhyChoose'
 import OurProcess from '../components/Home/OurProcess'
 import HomeTestimonials from '../components/Home/HomeTestimonials'
+import GuardBoardCompliance from '../components/Home/GuardBoardCompliance'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <HomeServices/>
       <WhyChoose/>
       <OurProcess/>
+      <GuardBoardCompliance/>
       <HomeStats/>
       <HomeTestimonials/>
       
