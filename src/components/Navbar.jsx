@@ -96,11 +96,11 @@ const Navbar = () => {
             </a>
 
             <a
-              href="mailto:info@bkstarguard.com"
+              href="mailto:bkstarguard@gmail.com"
               className="flex items-center gap-2 hover:text-[#D4A017] transition-colors"
             >
               <FaEnvelope className="text-[#D4A017]" />
-              <span>info@bkstarguard.com</span>
+              <span>bkstarguard@gmail.com</span>
             </a>
           </div>
 
@@ -402,7 +402,7 @@ const Navbar = () => {
                 </a>
 
                 <a
-                  href="mailto:info@bkstarguard.com"
+                  href="mailto:bkstarguard@gmail.com"
                   className="
                     flex
                     items-center
@@ -415,7 +415,7 @@ const Navbar = () => {
                     <FaEnvelope className="text-[#D4A017] text-xs" />
                   </span>
 
-                  <span>info@bkstarguard.com</span>
+                  <span>bkstarguard@gmail.com</span>
                 </a>
               </div>
 
