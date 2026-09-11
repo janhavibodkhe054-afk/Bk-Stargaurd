@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const services = [
  {
     title: "Corporate Security Services",
-    image: "/public/24x7-security-services-pune.jpeg",
+    image: "/24x7-security-services-pune.jpeg",
     desc: "Professional security solutions for offices, IT parks, banks and corporate premises.",
   },
   {
