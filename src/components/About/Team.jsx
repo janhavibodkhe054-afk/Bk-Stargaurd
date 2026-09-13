@@ -1,13 +1,47 @@
 import React from "react";
 
 const teamMembers = [
-  // --- ROW 1 ---
+  // --- 1. MANAGING DIRECTOR ---
   {
     name: "Mr. Balkrishna Koli",
     role: "Managing Director (Ex-Army)",
     image: "/balkrishna-koli.jpeg",
     description:
       "Provides strategic leadership and oversees all operations to deliver reliable and professional security services. Leads the management team, supervises operations, ensures high service standards, strengthens client relationships, and drives business growth.",
+  },
+
+  // --- 2. HR MANAGER ---
+  {
+    name: "Mr. Vikas Shirsat",
+    role: "HR Manager",
+    image: "/vikas.jpeg",
+    description:
+      "Heads nocturnal quick-response patrolling units across industrial corridors, conducting random spot-checks and maintaining 24/7 central control connectivity.",
+  },
+
+  // --- 3. SENIOR SUPERVISOR ---
+  {
+    name: "Mr. Sharad Satpute",
+    role: "Senior Supervisor",
+    image: "/sharad.jpeg",
+    description:
+      "Experienced Supervisor with 4 years of field expertise. Responsible for managing security personnel, monitoring safety procedures, and ensuring the protection of people, property, and client assets.",
+  },
+
+  // --- 4. SUPERVISORS ---
+  {
+    name: "Mr. Santosh Gaikwad",
+    role: "Supervisor",
+    image: "/santosh.jpeg",
+    description:
+      "Experienced security professional with over 3 years as a Supervisor. Conducts site inspections, manages guard deployment, maintains discipline, and ensures the safety and security of client premises.",
+  },
+  {
+    name: "Mr. Shahaji Lokhande",
+    role: "Supervisor",
+    image: "/shahaji.jpeg",
+    description:
+      "Experienced Supervisor with over 5 years of expertise. Oversees guard attendance, shift scheduling, uniforms, and performance while ensuring disciplined security operations and complete protection of client premises.",
   },
   {
     name: "Mr. Mahesh Shirsat",
@@ -17,57 +51,29 @@ const teamMembers = [
       "Manages recruitment, employee relations, training, and workforce development to maintain a professional security team. Ensures smooth execution through a structured operational process with clear coordination and accountability.",
   },
   {
-    name: "Mr. Vikas shirsat",
-    role: "HR Manager",
-    image: "/vikas.jpeg",
-    description:
-      "Heads nocturnal quick-response patrolling units across industrial corridors, conducting random spot-checks and maintaining 24/7 central control connectivity.",
-  },
-  {
-    name: "Mr. Sandip Kedar",
-    role: "Senior Clark",
-    image: "/sandeep-kedar.jpeg",
-    description:
-      "Coordinates daily security operations, site readiness, documentation, and staff deployment. Maintains effective communication between clients and the security team to ensure uninterrupted and efficient operations.",
-  },
-
-  // --- ROW 2 ---
-  {
-    name: "Mr. Sopan Gangthade",
-    role: "Junior Clark",
-    image: "/sopan.jpeg",
-    description:
-      "Supervises the Central Monitoring Unit and controls communication between security guards, supervisors, and management. Maintains operational records, incident reports, and daily security documentation.",
-  },
-  {
-    name: "Mr. Santosh Gaikwad",
-    role: "Supervisor",
-    image: "/santosh.jpeg",
-    description:
-      "Experienced security professional with over 3 years as a Supervisor. Conducts site inspections, manages guard deployment, maintains discipline, and ensures the safety and security of client premises.",
-  },
-  {
-    name: "Mr. Sharad Satpute",
-    role: "Senior Supervisor",
-    image: "/sharad.jpeg",
-    description:
-      "Experienced Supervisor with 4 years of field expertise. Responsible for managing security personnel, monitoring safety procedures, and ensuring the protection of people, property, and client assets.",
-  },
-
-  // --- ROW 3 ---
-  {
-    name: "Mr. Shahaji Lokhande",
-    role: "Supervisor",
-    image: "/shahaji.jpeg",
-    description:
-      "Experienced Supervisor with over 5 years of expertise. Oversees guard attendance, shift scheduling, uniforms, and performance while ensuring disciplined security operations and complete protection of client premises.",
-  },
-  {
     name: "Mr. Anand More",
     role: "Supervisor",
     image: "/anand.jpeg",
     description:
       "Conducts rigorous physical drill sessions, perimeter protocol coaching, emergency fire-safety simulations, and gate turnstile discipline for deployed security guards.",
+  },
+
+  // --- 5. SENIOR CLERK ---
+  {
+    name: "Mr. Sandip Kedar",
+    role: "Senior Clerk",
+    image: "/sandeep-kedar.jpeg",
+    description:
+      "Coordinates daily security operations, site readiness, documentation, and staff deployment. Maintains effective communication between clients and the security team to ensure uninterrupted and efficient operations.",
+  },
+
+  // --- 6. JUNIOR CLERK ---
+  {
+    name: "Mr. Sopan Gangthade",
+    role: "Junior Clerk",
+    image: "/sopan.jpeg",
+    description:
+      "Supervises the Central Monitoring Unit and controls communication between security guards, supervisors, and management. Maintains operational records, incident reports, and daily security documentation.",
   },
 ];
 

@@ -23,7 +23,7 @@ const slides = [
       "BK Star Guard Security delivers dependable protection with experienced guards, modern operations and quick response services.",
   },
   {
-    image: "/corporate-security-services-pune.jpeg",
+    image: "/bk-star-guard-manpower-services-pune.jpeg",
     title: "ADVANCED SURVEILLANCE",
     highlight: "& MANPOWER",
     description:

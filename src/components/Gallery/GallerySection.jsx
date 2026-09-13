@@ -49,7 +49,7 @@ const images = [
   },
   {
     id: 10,
-    src: "/private-security-services-pune.jpeg",
+    src: "/commercial-security-services-pune.jpeg",
     alt: "Private Security Services in Pune",
   },
   {
@@ -64,7 +64,7 @@ const images = [
   },
   {
     id: 13,
-    src: "/commercial-security-services-pune.jpeg",
+    src: "/private-security-services-pune.jpeg",
     alt: "Commercial Security Services in Pune",
   },
   {
@@ -119,12 +119,12 @@ const images = [
   },
   {
     id: 24,
-    src: "/trained-security-guards-pune.jpeg",
+    src: "/security-manpower-services-maharashtra.jpeg",
     alt: "Trained Security Guards in Pune",
   },
   {
     id: 25,
-    src: "/professional-security-agency-pune.jpeg",
+    src: "/professional-manpower-services-pune.jpeg",
     alt: "Professional Security Agency in Pune",
   },
   {
@@ -139,7 +139,7 @@ const images = [
   },
   {
     id: 28,
-    src: "/security-manpower-services-maharashtra.jpeg",
+    src: "/trained-security-guards-pune.jpeg",
     alt: "Security Manpower Services in Maharashtra",
   },
   {
@@ -149,12 +149,82 @@ const images = [
   },
   {
     id: 30,
-    src: "/professional-manpower-services-pune.jpeg",
+    src: "/professional-security-agency-pune.jpeg",
     alt: "Professional Manpower Services in Pune",
   },
   {
     id: 31,
     src: "/housekeeping-manpower-services-pune.jpeg",
+    alt: "Housekeeping Manpower Services in Pune",
+  },
+  {
+    id: 32,
+    src: "/vip bodyguard services.webp",
+    alt: "Housekeeping Manpower Services in Pune",
+  },
+   {
+    id: 33,
+    src: "/g51.jpg",
+    alt: "Housekeeping Manpower Services in Pune",
+  },
+   {
+    id: 34,
+    src: "/g57.jpg",
+    alt: "Housekeeping Manpower Services in Pune",
+  },
+  {
+    id: 35,
+    src: "/housekeeping-manpower-services-pune.jpeg",
+    alt: "Housekeeping Manpower Services in Pune",
+  },
+  {
+    id: 36,
+    src: "/g50.jpg",
+    alt: "Housekeeping Manpower Services in Pune",
+  },
+  {
+    id: 37,
+    src: "/s3.jpg",
+    alt: "Housekeeping Manpower Services in Pune",
+  },
+  {
+    id: 38,
+    src: "/s5.jpeg",
+    alt: "Housekeeping Manpower Services in Pune",
+  },
+  {
+    id: 39,
+    src: "/s8.jpeg",
+    alt: "Housekeeping Manpower Services in Pune",
+  },
+  {
+    id: 40,
+    src: "/s9.jpeg",
+    alt: "Housekeeping Manpower Services in Pune",
+  },
+  {
+    id: 41,
+    src: "/g63.jpg",
+    alt: "Housekeeping Manpower Services in Pune",
+  },
+  {
+    id: 42,
+    src: "/g6.jpg",
+    alt: "Housekeeping Manpower Services in Pune",
+  },
+  {
+    id: 43,
+    src: "/g9.jpg",
+    alt: "Housekeeping Manpower Services in Pune",
+  },
+  {
+    id: 44,
+    src: "/g13.jpg",
+    alt: "Housekeeping Manpower Services in Pune",
+  },
+  {
+    id: 45,
+    src: "/g24.jpg",
     alt: "Housekeeping Manpower Services in Pune",
   },
   // {
