@@ -67,13 +67,12 @@ const VisionMission = () => {
 
             {/* IMAGE */}
             <div className="relative z-10 mt-10 lg:mt-0 overflow-hidden">
-              <img
-                src="/best-security-services-pune-bk-star-guard.png"
-                alt=""
-                className="w-full h-[350px] sm:h-[450px] lg:h-[600px] object-cover shadow-2xl"
-                style={{ objectPosition: "30% center" }}
-              />
-            </div>
+  <img
+    src="/best-security-services-pune-bk-star-guard.png"
+    alt=""
+    className="w-full h-[350px] sm:h-[450px] lg:h-[600px] object-cover shadow-2xl object-[40%_center] sm:object-[20%_center] lg:object-[30%_center]"
+  />
+</div>
           </div>
         </div>
       </div>
