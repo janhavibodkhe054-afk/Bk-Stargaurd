@@ -13,9 +13,20 @@ export default function HomeAbout() {
             data-aos-duration="1000"
           >
             <img
-              src="/private-security-services-pune.jpeg"
+              src="/private-security-services-pune.png"
               alt="BK Star Guard Founder and Security Team"
-              className="w-full h-[360px] sm:h-[480px] lg:h-[580px] object-cover rounded-3xl shadow-2xl"
+              loading="eager"
+              className="
+      block
+      w-full
+      h-[360px]
+      sm:h-[450px]
+      lg:h-[540px]
+      object-cover
+      object-center
+      rounded-3xl
+      shadow-2xl
+    "
             />
 
             {/* Floating Card */}
@@ -56,11 +67,15 @@ export default function HomeAbout() {
               <div className="mt-4 pt-4 border-t border-white/10 space-y-2 text-xs sm:text-sm text-gray-300">
                 <div className="flex items-center gap-2">
                   <FaMedal className="text-[#D4A017] flex-shrink-0" />
-                  <span><strong>35 Years</strong> Distinguished Indian Army Service</span>
+                  <span>
+                    <strong>35 Years</strong> Distinguished Indian Army Service
+                  </span>
                 </div>
                 <div className="flex items-center gap-2">
                   <FaBuilding className="text-[#D4A017] flex-shrink-0" />
-                  <span><strong>Since 2010:</strong> Corporate Security Enterprise</span>
+                  <span>
+                    <strong>Since 2010:</strong> Corporate Security Enterprise
+                  </span>
                 </div>
               </div>
             </div>
@@ -94,18 +109,29 @@ export default function HomeAbout() {
                 </div>
               </div>
               <p className="mt-2 text-xs sm:text-sm text-gray-700 leading-relaxed">
-                Backed by <strong>35 distinguished years in the Indian Army</strong> and a collective <strong>45+ years of operational command</strong>, the organization operates under combat-tested battle readiness, zero-compromise vigilance, and strict chain-of-command discipline.
+                Backed by{" "}
+                <strong>35 distinguished years in the Indian Army</strong> and a
+                collective <strong>45+ years of operational command</strong>,
+                the organization operates under combat-tested battle readiness,
+                zero-compromise vigilance, and strict chain-of-command
+                discipline.
               </p>
             </div>
 
             {/* Shortened Narrative Paragraphs */}
             <div className="mt-6 space-y-4 text-gray-700 leading-relaxed text-sm sm:text-base">
               <p>
-                Established in <strong>2010</strong>, <strong>BK STAR GUARD SECURITY & MANPOWER SERVICES</strong> was built to bring defense-grade standards to commercial and corporate security, replacing conventional vigilance with structured military drills and proactive risk mitigation.
+                Established in <strong>2010</strong>,{" "}
+                <strong>BK STAR GUARD SECURITY & MANPOWER SERVICES</strong> was
+                built to bring defense-grade standards to commercial and
+                corporate security, replacing conventional vigilance with
+                structured military drills and proactive risk mitigation.
               </p>
 
               <p>
-                Today, we safeguard key industries, IT parks, logistics hubs, and residential communities across Maharashtra with disciplined, verified, and quick-response security personnel.
+                Today, we safeguard key industries, IT parks, logistics hubs,
+                and residential communities across Maharashtra with disciplined,
+                verified, and quick-response security personnel.
               </p>
             </div>
           </div>
