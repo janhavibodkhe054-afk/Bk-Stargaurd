@@ -16,14 +16,14 @@ const slides = [
       "Professional security guards, industrial security, housekeeping and manpower solutions with 24×7 protection across Maharashtra.",
   },
   {
-    image: "/bk-star-guard-security-services-pune.jpeg",
+    image: "/slide2.png",
     title: "YOUR SAFETY",
     highlight: "OUR PRIORITY",
     description:
       "BK Star Guard Security delivers dependable protection with experienced guards, modern operations and quick response services.",
   },
   {
-    image: "/bk-star-guard-manpower-services-pune.jpeg",
+    image: "/slide3.png",
     title: "ADVANCED SURVEILLANCE",
     highlight: "& MANPOWER",
     description:
@@ -73,8 +73,8 @@ const HeroSection = () => {
                   via-[#061827]/85
                   via-[58%]
                   to-black/10
-                  sm:from-[#020b14]/80
-                  sm:via-[#061827]/80
+                  sm:from-[#020b14]/70
+                  sm:via-[#061827]/70
                   sm:via-[55%]
                   sm:to-transparent
                 "

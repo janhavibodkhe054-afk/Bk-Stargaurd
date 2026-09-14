@@ -27,6 +27,23 @@ const teamMembers = [
     description:
       "Experienced Supervisor with 4 years of field expertise. Responsible for managing security personnel, monitoring safety procedures, and ensuring the protection of people, property, and client assets.",
   },
+  // --- 5. SENIOR CLERK ---
+  {
+    name: "Mr. Sandip Kedar",
+    role: "Senior Clerk",
+    image: "/sandeep-kedar.jpeg",
+    description:
+      "Coordinates daily security operations, site readiness, documentation, and staff deployment. Maintains effective communication between clients and the security team to ensure uninterrupted and efficient operations.",
+  },
+
+  // --- 6. JUNIOR CLERK ---
+  {
+    name: "Mr. Sopan Gangthade",
+    role: "Junior Clerk",
+    image: "/sopan.jpeg",
+    description:
+      "Supervises the Central Monitoring Unit and controls communication between security guards, supervisors, and management. Maintains operational records, incident reports, and daily security documentation.",
+  },
 
   // --- 4. SUPERVISORS ---
   {
@@ -58,23 +75,7 @@ const teamMembers = [
       "Conducts rigorous physical drill sessions, perimeter protocol coaching, emergency fire-safety simulations, and gate turnstile discipline for deployed security guards.",
   },
 
-  // --- 5. SENIOR CLERK ---
-  {
-    name: "Mr. Sandip Kedar",
-    role: "Senior Clerk",
-    image: "/sandeep-kedar.jpeg",
-    description:
-      "Coordinates daily security operations, site readiness, documentation, and staff deployment. Maintains effective communication between clients and the security team to ensure uninterrupted and efficient operations.",
-  },
-
-  // --- 6. JUNIOR CLERK ---
-  {
-    name: "Mr. Sopan Gangthade",
-    role: "Junior Clerk",
-    image: "/sopan.jpeg",
-    description:
-      "Supervises the Central Monitoring Unit and controls communication between security guards, supervisors, and management. Maintains operational records, incident reports, and daily security documentation.",
-  },
+  
 ];
 
 const Team = () => {
